@@ -1,0 +1,113 @@
+body {
+  width: 100vw;
+  display: flex;
+}
+
+.side-bar {
+  padding-top: 50px;
+  height:calc(100vh - 50px);
+  position: sticky;
+  top: 0px;
+  width: 70px;
+}
+
+div.home-s,div.user-s,div.folder-s,div.envelope-s,div.twitter-s,div.github-s{
+  height: calc( 100% / 6);
+  text-align: center;
+}
+
+.main {
+  overflow: scroll;
+  margin-right: 0px;
+  width: calc( 100% - 70px);
+}
+
+header,section {
+  height: 100vh;
+  width: calc( 100vw - 70px);
+}
+
+header {
+  background-image: url("https://i.gyazo.com/01ae6cfc0c31b375a4fa58a44dcdbf7a.png");
+  background-size: contain;
+}
+
+.about{
+  height:100vh;
+  min-height:700px;
+  background-color:#ffffff;
+  color:#333;
+}
+.about-text{
+  width:100%;
+}
+.about-text__profile,.about-text__learning,.about-text__learning-now{
+  width:70%;
+  margin:30px auto;
+  line-height:1.5;
+  text-align:left;
+  font-size:16px;
+}
+.heading{
+  padding-top: 80px;
+  display:inline-block;
+  padding-bottom:15px;
+  letter-spacing:2px;
+  font-size:4rem;
+  border-bottom:double 4px #999;
+  display: block;
+  text-align: center;
+}
+
+*{
+  font-family:Arial,游ゴシック体,YuGothic,メイリオ,Meiryo,sans-serif；;
+}
+
+h2,p{
+  margin:0;
+  padding:0;
+}
+
+h2{
+  font-size:100%;
+  font-weight:normal;
+}
+
+.works {
+  background-color: #2f2f2f;
+}
+
+.head-myworks {
+  color: #ffffff;
+}
+
+.works-wrapper {
+  width: 100%;
+  margin: 0px;
+  display: flex;
+}
+
+.work-box {
+  width: 280px;
+  margin: 33px;
+  background-color:rgb(255, 255, 255);
+  height: 360px;
+}
+
+.work-description {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.button-ghost {
+  border: 2px solid rgb(3, 3, 3);
+  padding: 3px;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
