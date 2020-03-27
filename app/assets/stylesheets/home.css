@@ -128,3 +128,62 @@ button{
   padding: 0;
   appearance: none;
 }
+
+/* .twi {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  background-color: white;
+} */
+.twitter-s:hover .twi {
+  display: block;
+}
+
+
+.twi {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  /* min-width: 120px;
+  max-width: 100%; */
+  width: 130px;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  box-sizing: border-box;
+  top: -50%;
+  left: 75%;
+  display: none;
+}
+
+.twi:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  margin-top: -10px;
+  border: 10px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+  
+}
+
+.twi:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -27px;
+  margin-top: -10px;
+  border: 10px solid transparent;
+  border-right: 16px solid #555;
+  z-index: 1;
+  float: left;
+  
+}
+
+.twi p {
+  margin: 0;
+  padding: 0;
+}
